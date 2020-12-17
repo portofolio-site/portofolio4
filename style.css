@@ -1,0 +1,91 @@
+html {
+background: #fff;
+padding: 0;
+margin: 0;
+}
+
+body {
+color: #000;
+font-size: 1.3em;
+font-family: 'ヒラギノ明朝 Pro W3' , 'Hiragino Mincho Pro' , 'ＭＳ Ｐ明朝' , 'MS PMincho' , serif;
+}
+
+a {
+color: #000;
+outline: 0;
+}
+a:hover {
+text-decoration: none;
+color: #000;
+outline: 0;
+}
+li{
+  color:black;
+}
+
+::selection {
+  background-color: #fdff47;
+  color: #000;
+}
+
+::-moz-selection {
+  background-color: #fdff47;
+  color: #000;
+}
+
+/*main coating*/
+
+header {
+  display: block;
+  height: 65px;
+}
+/*top-wrapper*/
+.top-wrapper{
+  padding: 180px 0 100px 0;
+  background-image: url(img/spring.jpg);
+  height:100%;
+  width:100%;
+}
+.top-wrapper img{
+  height:50%;
+  width:50%;
+}
+.bg-slider{
+  background-position:center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+/*work*/
+.gray{
+  background-color: gray;
+}
+.work-doing{
+  text-align: center;
+  display: inline-block;
+  width:100%;
+  height:100%;
+}
+.work-doing img{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+}
+
+/*profile*/
+.profile img{
+  width: 80%;
+  height: 80%;
+  text-align: center;
+}
+/*Contact*/
+.contact img{
+  width:200px;
+  height:100x;
+}
+/*footer*/
+footer h4{
+  text-align: center;
+}
